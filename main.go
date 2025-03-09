@@ -23,4 +23,5 @@ func main() {
 	// Start watching for node events
 	klog.Info("Starting node watcher")
 	watchevent.WatchNodes(clientset)
+	// The WatchNodes function now contains the blocking logic to keep the program running
 }

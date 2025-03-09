@@ -1,4 +1,4 @@
-package drainnode
+package watchevent
 
 import (
 	"context"
